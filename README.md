@@ -1,88 +1,88 @@
-📊 Sistema de Interpretación de Gráficos Estadísticos
+# 📊 Sistema de Interpretación de Gráficos Estadísticos
 
-Aplicación de escritorio desarrollada en Python que permite crear, visualizar e interpretar gráficos estadísticos de forma interactiva y accesible, incorporando texto a voz, generación de PDF, carga de datasets CSV y visualización clara de estadísticas.
+Aplicación de escritorio desarrollada en **Python** con **CustomTkinter**, orientada a la **visualización, análisis e interpretación de gráficos estadísticos**, incluyendo un **cuestionario interactivo** para reforzar el aprendizaje.
 
-🎯 Objetivo del proyecto
+---
 
-Facilitar la comprensión de gráficos estadísticos (Histogramas, Barras, Pastel y Dispersión) mediante:
+## 🚀 Características principales
 
-Visualización clara
+### 📈 Tipos de gráficos
+- Histograma
+- Gráfico de Barras
+- Gráfico de Pastel
+- Diagrama de Dispersión
 
-Cálculo automático de estadísticas
+### 📊 Estadísticas automáticas
+- Media
+- Mediana
+- Moda
+- Desviación estándar
+- Mínimo y máximo
+- Rango
+- Correlación (para dispersión)
+- Total de datos
 
-Lectura por voz (accesibilidad)
+Las estadísticas se muestran en un **panel con scroll**, permitiendo visualizar correctamente grandes cantidades de información.
 
-Exportación de resultados
+---
 
-🖥️ Características principales
+## 🧠 Cuestionario interactivo (Actualizado)
 
-✔ Interfaz gráfica moderna con CustomTkinter
-✔ Gráficos con Matplotlib
-✔ Texto a voz con pyttsx3
-✔ Música de fondo con pygame
-✔ Carga de archivos CSV
-✔ Exportación a imagen y PDF
-✔ Estadísticas descriptivas automáticas
-✔ Cuestionario interactivo con lectura por voz
+- Preguntas de selección múltiple
+- Navegación pregunta por pregunta
+- Contador visible de:
+  - ✔ Respuestas correctas
+  - ❌ Respuestas incorrectas
+- Validación: no permite avanzar sin responder
+- Resultado final con puntaje
+- Lectura por voz de preguntas y resultados
 
-📈 Tipos de gráficos soportados
+---
 
-📊 Histograma
+## 🔊 Accesibilidad
+- Lectura por voz mediante **Text-to-Speech (pyttsx3)**
+- Control de volumen
+- Soporte de idioma:
+  - Español 🇪🇸
+  - Inglés 🇺🇸
 
-📊 Gráfico de Barras
+---
 
-🥧 Gráfico de Pastel
+## 💾 Gestión de datos
+- Ingreso manual de datos
+- Carga de archivos CSV
+- Guardado automático de gráficos
+- Historial de gráficos generados
+- Exportación de reportes en PDF con:
+  - Gráfico
+  - Estadísticas
+  - Fecha y nombre del conjunto de datos
 
-📈 Diagrama de Dispersión
+---
 
-🧮 Estadísticas calculadas
+## 🖥️ Interfaz gráfica
+- Tema claro y oscuro
+- Diseño moderno con **CustomTkinter**
+- Paneles organizados:
+  - Tipos de gráficos
+  - Área de visualización
+  - Estadísticas con scroll
+  - Historial de gráficos guardados
 
-Media
+---
 
-Mediana
+## 🛠️ Tecnologías utilizadas
 
-Moda
+- Python 3.12
+- CustomTkinter
+- Tkinter
+- Matplotlib
+- Pandas
+- NumPy
+- pyttsx3
+- FPDF
+- SciPy (opcional, para cálculo de moda)
 
-Desviación estándar
+---
 
-Mínimo y máximo
-
-Rango
-
-Correlación (en dispersión)
-
-♿ Accesibilidad
-
-🔊 Lectura automática de teoría y estadísticas
-
-🔊 Control de volumen
-
-🧠 Cuestionario guiado por voz
-
-📁 Estructura del proyecto
-Proyecto_ver3/
-│
-├── main.py              # Interfaz gráfica
-├── logica.py            # Lógica, estadísticas, audio y PDF
-├── datos.csv             # Datos almacenados
-├── musica_fondo.mp3      # Música de fondo
-├── graficos_guardados/
-├── reportes/
-└── README.md
-⚙️ Requisitos
-
-Instalar dependencias:
-
-pip install customtkinter matplotlib pandas numpy pygame pyttsx3 fpdf
-
-(Opcional: scipy para cálculo de moda)
-
-▶️ Ejecución
-python main.py
-📌 Autor
-
-Proyecto académico desarrollado para interpretación y análisis de gráficos estadísticos.
-
-📜 Licencia
-
-Uso educativo y académico.
+## 📂 Estructura del proyecto
