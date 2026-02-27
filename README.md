@@ -86,3 +86,25 @@ Las estadísticas se muestran en un **panel con scroll**, permitiendo visualizar
 ---
 
 ## 📂 Estructura del proyecto
+
+Proyecto_ver3/
+│
+├── main.py # Interfaz gráfica principal
+├── logica.py # Lógica estadística, gráficos y cuestionario
+├── datos.csv # Dataset principal
+│
+├── graficos_guardados/ # Imágenes generadas
+├── reportes/ # Reportes PDF
+│
+└── README.md # Documentación del proyecto
+
+
+---
+
+## ▶️ Ejecución
+
+1. Instalar dependencias:
+```bash
+pip install customtkinter matplotlib pandas numpy pyttsx3 fpdf scipy
+
+
